@@ -1,0 +1,63 @@
+.form-container{
+    max-width: 700px;
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.form-container .title{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.form-container form .input_field{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.form-container form .input_field label, #zipcode_label, #user_label{
+    width: 350px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.form-container form .input_field input, .zipcode input, .username_field input{
+    width: 100%;
+    outline: none;
+    border: 1px solid #003c8f;
+    font-size: 18px;
+    padding: 8px 10px;
+    border-radius: 3px;
+}
+
+.zipcode .username_field{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+#sample6_postcode, #username{
+    width: 70%;
+    margin-right: 14px;
+}
+
+#zipcode_button, #user_check{
+    width: 30%;
+    font-size: 14px;
+}
+
+#zipcode_label, #user_label{
+    flex-basis: 360px;
+}
+
+#user_check{
+    border: 1px solid #333333;
+    background: #ebebeb;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 0;
+}

@@ -1,0 +1,22 @@
+{% load static %}
+{% block navbar %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/navbar.css' %}">
+<div class="header">
+    <div class="searchArea">
+        <form>
+            <input type="search" placeholder="Search">
+            <span>검색</span>
+        </form>
+    </div>
+    <ul class="nav">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">강좌찾기</a></li>
+        <li><a href="#">강사찾기</a></li>
+        <li><a href="#">학생찾기</a></li>
+        <li><a href="#">로그인</a></li>
+    </ul>
+</div>
+
+
+
+{% endblock %}

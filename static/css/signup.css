@@ -61,3 +61,14 @@
     text-align: center;
     padding: 10px 0;
 }
+
+input.regsubmit, input#zipcode_button, div#user_check{
+    background: #03a9f4;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 0;
+}
+
+div#user_check a{
+    color: #fff;
+}
